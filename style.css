@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+}
+
+body {
+        font-family: 'Alata', sans-serif;
+}
+
+.header {
+        display: flex;
+        background: white;
+        justify-content: space-between;
+        align-items: center;
+        height: 100px;
+        padding: 0 30px 0 10px;
+        
+}
+
+.logo {
+        height: 90%;
+}
+
+.lista_links {
+        display: flex;
+        gap: 50px;
+        list-style: none;
+        font-size: 20px;
+}
+
+.link {
+        color: darkgreen;
+}
+
+.link:hover {
+        text-decoration: underline;
+}
